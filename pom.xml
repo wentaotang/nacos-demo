@@ -9,10 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>springboot-nacos</module>
-    </modules>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -22,6 +18,11 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
+    <modules>
+        <module>springboot-nacos</module>
+        <module>springcloud-nacos</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -38,6 +39,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
 </project>
